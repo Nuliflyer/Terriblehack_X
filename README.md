@@ -21,19 +21,3 @@ Create a Chrome Browser extension that detects when an ad or any link within the
 > - Make this specific to ad sites, or ads
 > - Make this toggleable (but who needs that)
 > - Make this more beautiful
-
-
-### UML diagram of concept
-
-
-```flow
-st=>start: Start
-e=>end
-op1=>operation: Scan webpage for all anchor tags
-cond1=>condition: Clicked safe webpage?
-op2=>operation: Redirect to safe page with a warning
-
-st->op1->cond1
-cond1(no)->op2->op1
-cond1(yes)->e
-```
