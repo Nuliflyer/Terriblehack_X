@@ -2,7 +2,7 @@
 	"name": "nopedotavi",
 	"version": "1.0",
 	"manifest_version": 2,
-	"description": "Redirects links",
+	"description": "Redirects malicious links to safety. I hope",
 	"browser_action": {
 		"default_icon":"img/ico.png",
 		"default_popup":"nopedotavi.html"
