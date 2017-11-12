@@ -1,5 +1,4 @@
 body {
-
   /*Background Colours*/
   background-color: white;
   /* Standard syntax */
@@ -12,7 +11,7 @@ body {
   vertical-align: middle;
 }
 .title {
-  font-family: "Comic Sans MS", cursive, sans-serif
+  font-family: "Comic Sans MS", cursive, sans-serif;
   /* Chrome, Safari, Opera */
  -webkit-animation: rainbow 1s infinite;
 }
@@ -23,7 +22,7 @@ u {
 }
 
 h1 {
-  font-family: "Comic Sans MS", cursive, sans-serif
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 p {
   font-family: "Comic Sans MS", cursive, sans-serif;
