@@ -2,15 +2,21 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/hijack.js"></script>
     <link rel="stylesheet" type="text/css" href="css/nopedotavi.css">
+    <script >
+    document.getElementById("check").onchange = function() {
+      console.log("hi");
+    }
+    </script>
     <title> nopedotavi </title>
-    <script scr="nopedotavi.js"></script>
   </head>
   <body>
     <center><u><h1 class="title"> NoPe DoT aVi </h1></u></center>
     <div align="right"><p>ThE mOsT iNeFfIcIeNt EfFiCiEnT mEtHoD oF pReVeNtInG lInK hIjAcKiNg As WeLl As A
       cOmMuNiCaBlE sOuNd ThAt NoTiFiEs YoU wHeN a YoU cHaNgE uRlS.</p></div>
       <br>
+      //<div align="center"><form id="myform">Active: <input type="checkbox" name="check" id="check" /></form></div>
     <div align="center"><img src="img/nopegif.gif" style="width:218px;heigh:218px;"></div>
   </body>
 </html>

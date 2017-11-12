@@ -8,10 +8,10 @@
 		"default_popup":"nopedotavi.html"
 	},
 	"background": {
-    "scripts": ["hijack.js"],
+    "scripts": ["js/hijack.js"],
     "persistent": false
   },
 	"permissions": [
-		"activeTab", "webNavigation", "tabs"
+		"activeTab", "webNavigation", "tabs", "storage"
 	]
 }
