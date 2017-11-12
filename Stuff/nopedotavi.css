@@ -1,0 +1,41 @@
+body {
+
+  /*Background Colours*/
+  background-color: white;
+  /* Standard syntax */
+  background: linear-gradient(to right, red,violet);
+
+  /*Popup Size*/
+  min-width: 250px;
+  min-height: 400px;
+  position: relative;
+  vertical-align: middle;
+}
+.title {
+  font-family: "Comic Sans MS", cursive, sans-serif
+  /* Chrome, Safari, Opera */
+ -webkit-animation: rainbow 1s infinite;
+}
+
+u {
+  border-bottom: 3px dotted;
+  color: rgba(57,255,20,0.5);
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: 900;
+  color: rgba(50,205,50,1);
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
