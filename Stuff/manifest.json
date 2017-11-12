@@ -7,6 +7,10 @@
 		"default_icon":"img/ico.png",
 		"default_popup":"nopedotavi.html"
 	},
+	"background": {
+    "scripts": ["hijack.js"],
+    "persistent": false
+  },
 	"permissions": [
 		"activeTab", "webNavigation"
 	]
