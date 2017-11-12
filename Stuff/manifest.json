@@ -1,0 +1,10 @@
+{
+	"name": "nopedotavi",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Redirects links",
+	"browser_action": {
+		"default_icon":"",
+		"default_popup":"nopedotavi.html"
+	}
+}
