@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var loaded = false;
 var loaded2 = false;
 var safewebsite = "paypal.com";
@@ -30,4 +31,12 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab)  {
 if(loaded){
   loaded2 = true;
 }
+=======
+chrome.webNavigation.onBeforeNavigate.addListener(
+  function(callback){
+  console.log(callback.url);
+  chrome.tabs.executeScript({
+    code: 'window.onload = function() {	location.href = "http://martintuzim.com/saved.html";}'
+  });
+>>>>>>> ca89121181be4bd794e3a1a84cb01ff572a72bb0
 });
