@@ -1,8 +1,9 @@
-<<<<<<< HEAD
 var loaded = false;
 var loaded2 = false;
 var safewebsite = "paypal.com";
 var safewebsite2 = "paypal.me";
+var audio = new Audio('sound/nope.mp3');
+
 chrome.webNavigation.onCompleted.addListener(function (details) {
   console.log(details);
   if(details.url != "http://martintuzim.com/saved.html") {
@@ -22,6 +23,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab)  {
     loaded = false;
     loaded2 = false;
     console.log("Not on saved site, switch to it!");
+    audio.play();
     chrome.tabs.update(tabId, {url: myNewUrl});
 }
 } catch (e) {
@@ -31,12 +33,4 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab)  {
 if(loaded){
   loaded2 = true;
 }
-=======
-chrome.webNavigation.onBeforeNavigate.addListener(
-  function(callback){
-  console.log(callback.url);
-  chrome.tabs.executeScript({
-    code: 'window.onload = function() {	location.href = "http://martintuzim.com/saved.html";}'
-  });
->>>>>>> ca89121181be4bd794e3a1a84cb01ff572a72bb0
 });

@@ -12,13 +12,6 @@
     "persistent": false
   },
 	"permissions": [
-<<<<<<< HEAD
 		"activeTab", "webNavigation", "tabs"
-=======
-		"activeTab", "webNavigation",  "tabs",
-        "notifications",
-        "http://*/",
-        "https://*/"
->>>>>>> ca89121181be4bd794e3a1a84cb01ff572a72bb0
 	]
 }
