@@ -8,6 +8,6 @@
 		"default_popup":"nopedotavi.html"
 	},
 	"permissions": [
-		"activeTab"
+		"activeTab", "webNavigation"
 	]
 }
